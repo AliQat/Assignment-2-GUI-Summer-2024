@@ -58,17 +58,20 @@ nav {
     background-color: rgb(135, 200, 228);
     padding: 20px 0;
     height: 59vh;
+    margin-left: 0;
 }
 
 nav ul {
     list-style-type: none; 
     padding: 0;
     margin: 0;
+    margin-left: 0;
 }
 
 nav ul li {
     list-style-image: none; 
     margin-bottom: -10px;
+    margin-left: 0;
 }
 
 nav a {
@@ -76,11 +79,13 @@ nav a {
     color: rgb(0, 4, 52);
     display: block;
     padding: 10px 20px; 
+    margin-left: 0;
 }
 
 nav a:hover {
     background-color: rgb(0, 4, 52);
     color: #fff;
+    margin-left: 0;
 }
 
 #content {
@@ -108,9 +113,8 @@ p {
 
 ul li {
 	list-style-image: url('marker.gif');
-    margin-left: 0; 
+    margin-left: 350px;
 }
-
 /* Image styling */
 img {
 	float: left;
